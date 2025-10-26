@@ -1,0 +1,36 @@
+﻿<Page
+    x:Class="App1.Views.HomePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App1.Views"
+    Width="1024" Height="768"
+    >
+
+    <StackPanel Orientation="Vertical" Margin="8">
+        <StackPanel>
+            <TextBlock Text="{Binding IntValue}" />
+            <TextBlock Text="{Binding StringValue}" />
+            <TextBlock FontSize="10" >10. The quick brown fox jumps over the lazy dog.</TextBlock>
+            <TextBlock FontSize="12" >12. The quick brown fox jumps over the lazy dog.</TextBlock>
+            <TextBlock FontSize="14" >14. The quick brown fox jumps over the lazy dog.</TextBlock>
+            <TextBlock FontSize="16" >16. The quick brown fox jumps over the lazy dog.</TextBlock>
+            <TextBlock FontSize="18" >18. The quick brown fox jumps over the lazy dog.</TextBlock>
+            <TextBlock FontSize="20" >20. The quick brown fox jumps over the lazy dog.</TextBlock>
+
+        </StackPanel>
+        <StackPanel Margin="0, 8">
+            <TextBlock FontSize="10" >10. 素早い茶色の狐はのろまな犬どもを飛び越えた.</TextBlock>
+            <TextBlock FontSize="12" >12. 素早い茶色の狐はのろまな犬どもを飛び越えた.</TextBlock>
+            <TextBlock FontSize="14" >14. 素早い茶色の狐はのろまな犬どもを飛び越えた.</TextBlock>
+            <TextBlock FontSize="16" >16. 素早い茶色の狐はのろまな犬どもを飛び越えた.</TextBlock>
+            <TextBlock FontSize="18" >18. 素早い茶色の狐はのろまな犬どもを飛び越えた.</TextBlock>
+            <TextBlock FontSize="20" >20. 素早い茶色の狐はのろまな犬どもを飛び越えた.</TextBlock>
+
+        </StackPanel>
+        <StackPanel Margin="0, 8">
+            <TextBlock Style="{StaticResource TextBlock.Default.Large}" >Large. 素早い茶色の狐はのろまな犬どもを飛び越えた.</TextBlock>
+            <TextBlock Style="{StaticResource TextBlock.Default.Medium}" >Medium. 素早い茶色の狐はのろまな犬どもを飛び越えた.</TextBlock>
+            <TextBlock  Style="{StaticResource TextBlock.Default.Small}" >Small. 素早い茶色の狐はのろまな犬どもを飛び越えた.</TextBlock>
+        </StackPanel>
+    </StackPanel>
+</Page>

@@ -1,0 +1,21 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="using:System">
+
+
+    <Style TargetType="TextBlock">
+        <Setter Property="FontSize" Value="{StaticResource FontSize_Default}" />
+    </Style>
+    <Style  x:Key="TextBlock.Default.Medium" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="{StaticResource FontSize_Default}" />
+        <Setter Property="Foreground" Value="{StaticResource Text.Default.Foreground}" />
+    </Style>
+    <Style  x:Key="TextBlock.Default.Small" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="{StaticResource FontSize_Small}" />
+        <Setter Property="Foreground" Value="{StaticResource Text.Default.Foreground}" />
+    </Style>
+    <Style  x:Key="TextBlock.Default.Large" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="{StaticResource FontSize_Large}" />
+        <Setter Property="Foreground" Value="{StaticResource Text.Default.Foreground}" />
+    </Style>
+</ResourceDictionary>
