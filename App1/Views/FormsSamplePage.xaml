@@ -18,6 +18,9 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
@@ -57,68 +60,46 @@
             </StackPanel>
         </Grid>
         <Grid Grid.Row="4" Grid.Column="0" Margin="0,0,0,8" VerticalAlignment="Center">
-            <Grid VerticalAlignment="Center" Margin="0,0,0,0">
-                <TextBlock Text="保存" VerticalAlignment="Center"/>
-
-            </Grid>
-            
+            <TextBlock Text="保存" VerticalAlignment="Center"/>
         </Grid>
         <Grid Grid.Row="4" Grid.Column="1" Margin="0,0,0,8" >
 
             <StackPanel Orientation="Horizontal" Spacing="8" VerticalAlignment="Center">
                 <!-- Primary -->
-                <Button Style="{StaticResource CustomButton.Primary}">
+                <Button Style="{StaticResource FilledButton.Primary}">
                     <StackPanel Orientation="Horizontal" Spacing="8" VerticalAlignment="Center">
                         <SymbolIcon Symbol="Save"/>
                         <TextBlock Text="保存"/>
                     </StackPanel>
                 </Button>
-
-                <!-- Secondary -->
-                <Button Style="{StaticResource CustomButton.Secondary}">
+                <Button Style="{StaticResource FilledButton.Secondary}">
                     <StackPanel Orientation="Horizontal" Spacing="8" VerticalAlignment="Center">
                         <SymbolIcon Symbol="Save"/>
                         <TextBlock Text="保存"/>
                     </StackPanel>
                 </Button>
-
-                <!-- Info -->
-                <Button Style="{StaticResource CustomButton.Info}">
+                <Button Style="{StaticResource FilledButton.Info}">
                     <StackPanel Orientation="Horizontal" Spacing="8" VerticalAlignment="Center">
                         <SymbolIcon Symbol="Save"/>
                         <TextBlock Text="保存"/>
                     </StackPanel>
                 </Button>
-
-                <!-- Success -->
-                <Button Style="{StaticResource CustomButton.Success}">
+                <Button Style="{StaticResource FilledButton.Success}">
                     <StackPanel Orientation="Horizontal" Spacing="8" VerticalAlignment="Center">
                         <SymbolIcon Symbol="Save"/>
                         <TextBlock Text="保存"/>
                     </StackPanel>
                 </Button>
-
-                <!-- Warning -->
-                <Button Style="{StaticResource CustomButton.Warning}">
+                <Button Style="{StaticResource FilledButton.Warning}">
                     <StackPanel Orientation="Horizontal" Spacing="8" VerticalAlignment="Center">
                         <SymbolIcon Symbol="Save"/>
                         <TextBlock Text="保存"/>
                     </StackPanel>
                 </Button>
-
-                <!-- Danger -->
-                <Button Style="{StaticResource CustomButton.Danger}">
+                <Button Style="{StaticResource FilledButton.Danger}">
                     <StackPanel Orientation="Horizontal" Spacing="8" VerticalAlignment="Center">
                         <SymbolIcon Symbol="Save"/>
-                        <TextBlock Text="削除"/>
-                    </StackPanel>
-                </Button>
-
-                <!-- Disabled example -->
-                <Button Style="{StaticResource CustomButton.Danger}" IsEnabled="False">
-                    <StackPanel Orientation="Horizontal" Spacing="8" VerticalAlignment="Center">
-                        <SymbolIcon Symbol="Save"/>
-                        <TextBlock Text="削除 (無効)"/>
+                        <TextBlock Text="保存"/>
                     </StackPanel>
                 </Button>
             </StackPanel>
